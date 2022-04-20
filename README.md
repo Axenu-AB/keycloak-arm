@@ -1,27 +1,14 @@
 # Keycloak Docker image
 
-**docker hub:** [![Docker Pulls](https://img.shields.io/docker/pulls/mihaibob/keycloak.svg)](https://hub.docker.com/r/mihaibob/keycloak) 
-<br>
-**buy me a coffe:** [![Buy a coffe](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.com/paypalme2/mihaibob/1?locale.x=en_US)
+This is a fork of mihaibob/keycloak
 
 ## Available Keycloak versions
 
 *Starting with version 15.0.1 of Keycloak, only ARM 64 is supported by this repo*
 
-### ARM
-
-10.x: 10.0.2 <br>
-11.x: 11.0.0, 11.0.1, 11.0.2, 11.0.3 <br>
-12.x: 12.0.1, 12.0.2, 12.0.4 <br>
-13.x: 13.0.0, 13.0.1 <br>
-14.x: 14.0.0
-
-### ARM 64
-15.x: 15.0.1 <br>
-17.x-legacy: 17.0.0-legacy <br>
-17.x: -might release a version with server-x support-
-<br>
-legacy: starting from version 17 images with this tag represent the old Keycloak with jboss support. Ther ones that do not have the legacy keyword are the ones that use the new Quarkus implementation(aka server-x as Keycloak refer to this new implementation)
+## Tags
+15.1.0 => keycloak 15.1.0
+16.1.1 => keycloak 16.1.1
 
 ## How the image is build
 
